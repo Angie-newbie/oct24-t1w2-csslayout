@@ -5,6 +5,22 @@
 
 }
 
-body{
-    background-color:aqua;
+div{
+    position: relative;
+    width: 200px;
+    height:200px;
+    margin:1rem;
+    background-color: aqua;
+
+}
+
+div:nth-of-type(1){
+    background-color: black;
+}
+div:nth-of-type(2){
+    position:absolute;
+    background-color: blueviolet;
+    left: -100px;
+    top: 50px;
+    z-index:1;
 }
